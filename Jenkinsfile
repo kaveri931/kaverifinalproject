@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/kaveri931/repositary', branch: 'master'])
+        git([url: 'https://github.com/kaveri931/jenkinadmin', branch: 'master'])
 
       }
     }
